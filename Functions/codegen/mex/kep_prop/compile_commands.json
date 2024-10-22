@@ -1,0 +1,86 @@
+[
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  kep_prop_data.c -o build/maci64/kep_prop_data.o",
+    "file": "kep_prop_data.c",
+    "output": "build/maci64/kep_prop_data.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  rt_nonfinite.c -o build/maci64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/maci64/rt_nonfinite.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  kep_prop_initialize.c -o build/maci64/kep_prop_initialize.o",
+    "file": "kep_prop_initialize.c",
+    "output": "build/maci64/kep_prop_initialize.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  kep_prop_terminate.c -o build/maci64/kep_prop_terminate.o",
+    "file": "kep_prop_terminate.c",
+    "output": "build/maci64/kep_prop_terminate.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  kep_prop.c -o build/maci64/kep_prop.o",
+    "file": "kep_prop.c",
+    "output": "build/maci64/kep_prop.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  warning.c -o build/maci64/warning.o",
+    "file": "warning.c",
+    "output": "build/maci64/warning.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  eps.c -o build/maci64/eps.o",
+    "file": "eps.c",
+    "output": "build/maci64/eps.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  explicitRungeKutta.c -o build/maci64/explicitRungeKutta.o",
+    "file": "explicitRungeKutta.c",
+    "output": "build/maci64/explicitRungeKutta.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  num2str.c -o build/maci64/num2str.o",
+    "file": "num2str.c",
+    "output": "build/maci64/num2str.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  interface/_coder_kep_prop_api.c -o build/maci64/_coder_kep_prop_api.o",
+    "file": "interface/_coder_kep_prop_api.c",
+    "output": "build/maci64/_coder_kep_prop_api.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  interface/_coder_kep_prop_mex.c -o build/maci64/_coder_kep_prop_mex.o",
+    "file": "interface/_coder_kep_prop_mex.c",
+    "output": "build/maci64/_coder_kep_prop_mex.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  kep_prop_emxutil.c -o build/maci64/kep_prop_emxutil.o",
+    "file": "kep_prop_emxutil.c",
+    "output": "build/maci64/kep_prop_emxutil.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  interface/_coder_kep_prop_info.c -o build/maci64/_coder_kep_prop_info.o",
+    "file": "interface/_coder_kep_prop_info.c",
+    "output": "build/maci64/_coder_kep_prop_info.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/kep_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=kep_prop_mex -c  /Applications/MATLAB_R2022a.app/extern/version/c_mexapi_version.c -o build/maci64/c_mexapi_version.o",
+    "file": "/Applications/MATLAB_R2022a.app/extern/version/c_mexapi_version.c",
+    "output": "build/maci64/c_mexapi_version.o"
+  }
+]

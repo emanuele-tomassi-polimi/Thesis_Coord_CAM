@@ -1,0 +1,19 @@
+function t = theta2t(kep,th_1,th_2, mu)
+a = kep(1);
+e = kep(2);
+thet
+
+ for j=1:length(theta_vec)
+        if theta_vec(j)<0
+            nn=ceil(abs(theta_vec(j)/(2*pi)));
+            E_vec_m(j)=wrapTo2Pi(2*atan(sqrt((1-e_p)/(1+e_p))*tan(theta_vec(j)/2)))-2*pi*nn;
+        else
+            E_vec_m(j)=wrapTo2Pi(2*atan(sqrt((1-e_p)/(1+e_p))*tan(theta_vec(j)/2)));
+        end
+    end
+    E_p=wrapTo2Pi(2*atan(sqrt((1-e_p)/(1+e_p))*tan(theta_p/2)));
+
+    % Conversion of Eccentric anomaly in time before TCA:
+    t_p=sqrt(a_p^3/mu)*(E_p-e_p*sin(E_p));
+    times=t_p-sqrt(a_p^3/mu)*(E_vec_m-e_p*sin(E_vec_m));
+  

@@ -1,0 +1,52 @@
+# CompilerName=clang
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/maci64
+matlabdir = /Applications/MATLAB_R2022a.app
+startdir = /Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions
+
+# Toolchain information
+cc = /usr/bin/xcrun -sdk macosx13.1 clang
+cxx = /usr/bin/xcrun -sdk macosx13.1 clang++
+linker = /usr/bin/xcrun -sdk macosx13.1 clang
+linkerxx = /usr/bin/xcrun -sdk macosx13.1 clang++
+
+cflags =  -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c99 -I "$root" -I "$startdir" -I "$root/interface" -I "$matlabdir/extern/include" -I "." -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c 
+
+cxxflags =  -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I "$root" -I "$startdir" -I "$root/interface" -I "$matlabdir/extern/include" -I "." -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c 
+
+ldflags =  -Wl,-twolevel_namespace -undefined error -arch x86_64 -mmacosx-version-min=10.14 -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -framework Cocoa -bundle  -stdlib=libc++ -L"$matlabdir/bin/maci64" -lmx -lmex -lmat -L"$matlabdir/extern/bin/maci64" -lMatlabDataArray -lMatlabEngine  -Wl,-rpath,@loader_path -o STM_prop_mex.mexmaci64 -lemlrt -lcovrt -lut -lmwmathutil 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker $in $ldflags
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir/STM_prop_data.o : cxx $root/STM_prop_data.cpp
+build $builddir/rt_nonfinite.o : cxx $root/rt_nonfinite.cpp
+build $builddir/STM_prop_initialize.o : cxx $root/STM_prop_initialize.cpp
+build $builddir/STM_prop_terminate.o : cxx $root/STM_prop_terminate.cpp
+build $builddir/STM_prop.o : cxx $root/STM_prop.cpp
+build $builddir/explicitRungeKutta.o : cxx $root/explicitRungeKutta.cpp
+build $builddir/warning.o : cxx $root/warning.cpp
+build $builddir/eps.o : cxx $root/eps.cpp
+build $builddir/num2str.o : cxx $root/num2str.cpp
+build $builddir/_coder_STM_prop_api.o : cxx $root/interface/_coder_STM_prop_api.cpp
+build $builddir/_coder_STM_prop_mex.o : cxx $root/interface/_coder_STM_prop_mex.cpp
+build $builddir/_coder_STM_prop_info.o : cxx $root/interface/_coder_STM_prop_info.cpp
+build $builddir/cpp_mexapi_version.o : cxx $matlabdir/extern/version/cpp_mexapi_version.cpp
+
+# Link
+build $root/STM_prop_mex.mexmaci64 : linkxx $builddir/STM_prop_data.o $builddir/rt_nonfinite.o $builddir/STM_prop_initialize.o $builddir/STM_prop_terminate.o $builddir/STM_prop.o $builddir/explicitRungeKutta.o $builddir/warning.o $builddir/eps.o $builddir/num2str.o $builddir/_coder_STM_prop_api.o $builddir/_coder_STM_prop_mex.o $builddir/_coder_STM_prop_info.o $builddir/cpp_mexapi_version.o 

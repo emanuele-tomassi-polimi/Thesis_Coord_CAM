@@ -1,0 +1,80 @@
+[
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  STM_prop_data.cpp -o build/maci64/STM_prop_data.o",
+    "file": "STM_prop_data.cpp",
+    "output": "build/maci64/STM_prop_data.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  rt_nonfinite.cpp -o build/maci64/rt_nonfinite.o",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/maci64/rt_nonfinite.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  STM_prop_initialize.cpp -o build/maci64/STM_prop_initialize.o",
+    "file": "STM_prop_initialize.cpp",
+    "output": "build/maci64/STM_prop_initialize.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  STM_prop_terminate.cpp -o build/maci64/STM_prop_terminate.o",
+    "file": "STM_prop_terminate.cpp",
+    "output": "build/maci64/STM_prop_terminate.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  STM_prop.cpp -o build/maci64/STM_prop.o",
+    "file": "STM_prop.cpp",
+    "output": "build/maci64/STM_prop.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  explicitRungeKutta.cpp -o build/maci64/explicitRungeKutta.o",
+    "file": "explicitRungeKutta.cpp",
+    "output": "build/maci64/explicitRungeKutta.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  warning.cpp -o build/maci64/warning.o",
+    "file": "warning.cpp",
+    "output": "build/maci64/warning.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  eps.cpp -o build/maci64/eps.o",
+    "file": "eps.cpp",
+    "output": "build/maci64/eps.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  num2str.cpp -o build/maci64/num2str.o",
+    "file": "num2str.cpp",
+    "output": "build/maci64/num2str.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_STM_prop_api.cpp -o build/maci64/_coder_STM_prop_api.o",
+    "file": "interface/_coder_STM_prop_api.cpp",
+    "output": "build/maci64/_coder_STM_prop_api.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_STM_prop_mex.cpp -o build/maci64/_coder_STM_prop_mex.o",
+    "file": "interface/_coder_STM_prop_mex.cpp",
+    "output": "build/maci64/_coder_STM_prop_mex.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_STM_prop_info.cpp -o build/maci64/_coder_STM_prop_info.o",
+    "file": "interface/_coder_STM_prop_info.cpp",
+    "output": "build/maci64/_coder_STM_prop_info.o"
+  },
+  {
+    "directory": "/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions/codegen/mex/STM_prop",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.14 -fexceptions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/admin/Library/CloudStorage/OneDrive-PolitecnicodiMilano/andrea polimi/PhD/CAM/Codici Emanuele Tomassi/Functions\" -I \"./interface\" -I \"/Applications/MATLAB_R2022a.app/extern/include\" -I \".\" -DMODEL=STM_prop_mex -DMW_NEEDS_VERSION_H -c  /Applications/MATLAB_R2022a.app/extern/version/cpp_mexapi_version.cpp -o build/maci64/cpp_mexapi_version.o",
+    "file": "/Applications/MATLAB_R2022a.app/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/maci64/cpp_mexapi_version.o"
+  }
+]

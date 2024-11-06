@@ -711,6 +711,7 @@ hL.Layout.Tile = 'East';
 % set(0,'DefaultLegendFontSize',20);
 
 fig_avgcputime = [];
+fig_merit_index = [];
 
 if flag_opt == 3
     % compute the 3 methods average CPU times for the optimization of each case

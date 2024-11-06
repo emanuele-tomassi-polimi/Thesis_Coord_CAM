@@ -18,7 +18,7 @@
 clear
 clearvars
 clc;
-% close all;
+close all;
 
 OUTPUT = struct;
 OUTPUT_realTCA = struct;
@@ -29,7 +29,6 @@ addpath('Functions');
 addpath('data');
 addpath('data/Spice_data');
 addpath('Functions/input_management');
-addpath('Functions/plot_functions');
 addpath('Functions/get_n_coeffs');
 
 % Loading Spice Kernels
